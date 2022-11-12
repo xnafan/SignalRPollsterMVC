@@ -1,0 +1,2 @@
+﻿global using SignalRPollsterSiteMVC.DataAccessLayer;
+global using SignalRPollsterSiteMVC.DataAccessLayer.Model;

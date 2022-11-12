@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Pollster site</title>
+    <meta charset="utf-8" />
+    <style>
+        * {font-family:Verdana, Arial, sans-serif; font-size:18pt;}
+        .result {width:140px; text-align:center; float:left;/*border:1px solid red;*/}
+            .result span {
+                font-size: 30pt;
+            }
+        </style>
+</head>
+<body>
+    <div style="width:600px;margin:0px auto;">
+        <div class="result"><span id="option0score">0</span><br/><button class="voteButton">vote</button></div>
+        <div class="result"><span id="option1score">0</span><br/><button class="voteButton">vote</button></div>
+        <div class="result"><span id="option2score">0</span><br/><button class="voteButton">vote</button></div>
+        <div class="result"><span id="option3score">0</span><br/><button class="voteButton">vote</button></div>
+    </div>
+    <script src="js/signalr.js"></script>
+    <script src="js/pollster.js"></script>
+</body>
+</html>
